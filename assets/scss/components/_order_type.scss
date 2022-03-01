@@ -1,4 +1,4 @@
-.dimed-layer {
+.dimmed-layer {
     position : fixed;
     top : 0;
     left:0;
@@ -33,12 +33,14 @@
     .type-item {
         flex : 1; //width :50% 도 가능
         & + .type-item {
-            border-left : 1px solid $booking-color-border10;
+            border-left : 1px solid $booking-color-border103;
         }
     }
 
     .icon {
         width : 100px;
+        height: auto;
+        color : $booking-color-bg118;
     }
 
     .des {

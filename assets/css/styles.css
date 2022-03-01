@@ -136,7 +136,7 @@ textarea::-webkit-outer-spin-button {
   text-indent: -9999px;
 }
 
-.dimed-layer {
+.dimmed-layer {
   position: fixed;
   top: 0;
   left: 0;
@@ -174,11 +174,13 @@ textarea::-webkit-outer-spin-button {
 }
 
 .order-type-popup .type-item + .type-item {
-  border-left: 1px solid #e3e6e8;
+  border-left: 1px solid #f2f2f2;
 }
 
 .order-type-popup .icon {
   width: 100px;
+  height: auto;
+  color: #03c75a;
 }
 
 .order-type-popup .des {
