@@ -6,3 +6,16 @@
     overflow: hidden;
     text-indent: -9999px;
 }
+
+.scroll-x {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style : none; // IE scroll bar hidden
+    scrollbar-width: none; // firefox scroll bar hidden
+    &::-webkit-scrollbar {
+        display:none;
+    } // chrome scroll bar hidden
+
+}
